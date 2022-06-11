@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { useState } from 'react';
+import { useState } from "react";
 import { NFTCard } from "../componenets/nftCard"
 
 
@@ -99,7 +99,7 @@ export default function Home() {
               fetchNFTsForCollection()
             }else fetchNFTs()
           }
-        }>Let's go! </button>
+        }>Lets go! </button>
       </div>
     
       <div className="flex flex-wrap gap-y-12 mt-4 w-5/6 gap-x-6 justify-center">
