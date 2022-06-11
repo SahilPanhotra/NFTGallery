@@ -8,7 +8,6 @@ Api documentaion can be found here --&gt; <a href="https://docs.alchemy.com/alch
 <li>Create Alchemy account and generate api key ---&gt; <a href="https://dashboard.alchemyapi.io/" rel="nofollow">https://dashboard.alchemyapi.io/</a></li>
 <li>create .env.local file in root directory of project</li>
 <li>Add NEXT_PUBLIC_API_KEY=your-key in ".env.local" file </li>
-<li>Add api key to index.tsx @line 17</li>
 <li>Run on local host using yarn dev or npm dev</li>
 </ol>
 <p dir="auto">To use
@@ -20,8 +19,7 @@ Add address to first input and press "Lets Go"</p>
 If searching for all items in a collection.
   Add collection address to second input, select toggle "Fetch for Collection". then press "Lets Go" 
 </code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="If searching for all nfts from a specific address for a specic collection.
-  Add wallet address to first input and contract address to the second. Then press &quot;Lets Go&quot;
+    
 
 If searching for all items in a collection.
   Add collection address to second input, select toggle &quot;Fetch for Collection&quot;. then press &quot;Lets Go&quot; " tabindex="0" role="button">
@@ -31,6 +29,5 @@ If searching for all items in a collection.
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-    </clipboard-copy>
   </div></div>
 </article>
